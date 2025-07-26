@@ -122,24 +122,6 @@ Submit a question to the RAG system.
 }
 ```
 
-#### GET /health
-Health check endpoint.
-
-**Response:**
-```json
-{
-  "status": "healthy",
-  "message": "Bilingual RAG API is running"
-}
-```
-
-**Example cURL Request:**
-```bash
-curl -X POST http://localhost:8000/query \
-     -H 'Content-Type: application/json' \
-     -d '{"query": "অনুপমের ভাষায় সুপুরুষ কাকে বলা হয়েছে?"}'
-```
-
 ### Starting the API Server
 ```python
 from app import start_api
