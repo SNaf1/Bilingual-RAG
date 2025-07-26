@@ -1,0 +1,9 @@
+# Vector Database - Don't commit (regenerable via ingest.py)
+chroma_db/
+
+# Environment variables
+.env
+
+# Model cache (optional - these can be large)
+__pycache__/
+
